@@ -1,0 +1,21 @@
+a.green {
+    color: green;
+}
+a.red {
+   color: red;
+   
+}
+p[class*="r"] {
+   color: rgb(145, 21, 21);
+}
+p[class*="b"] {
+    color: blue;
+}
+.new::after {
+content: " -NEW  ";
+color: rgb(170, 170, 78);
+font-style: italic;
+}
+.mis:hover {
+ font-style: italic;   
+}
